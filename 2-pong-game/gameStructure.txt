@@ -1,0 +1,17 @@
+Score:
+	_turtle
+	_score
+	_updateScore()
+
+
+Player(turtle):
+	_turtle
+	_on_key_move()
+	_score (composite)
+	_position
+
+Ball(turtle):
+	_turtle
+	_colide()
+	_move()
+	_point()
